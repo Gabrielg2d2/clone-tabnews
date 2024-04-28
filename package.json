@@ -1,22 +1,24 @@
 {
-  "name": "clone-tabnews",
-  "version": "1.0.0",
-  "description": "Repository for study, within curso.dev",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "commit": "git-cz"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "git-commit-msg-linter": "^5.0.7",
-    "git-cz": "^4.9.0",
-    "prettier": "3.2.5"
-  }
+    "name": "clone-tabnews",
+    "version": "1.0.0",
+    "description": "Repository for study, within curso.dev",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "commit": "git-cz",
+        "lint:check": "prettier --check .",
+        "lint:fix": "prettier --write ."
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "next": "^13.1.6",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "git-commit-msg-linter": "^5.0.7",
+        "git-cz": "^4.9.0",
+        "prettier": "3.2.5"
+    }
 }
