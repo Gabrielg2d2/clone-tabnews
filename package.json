@@ -7,7 +7,9 @@
         "dev": "next dev",
         "commit": "git-cz",
         "lint:check": "prettier --check .",
-        "lint:fix": "prettier --write ."
+        "lint:fix": "prettier --write .",
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
     "author": "",
     "license": "MIT",
@@ -19,6 +21,7 @@
     "devDependencies": {
         "git-commit-msg-linter": "^5.0.7",
         "git-cz": "^4.9.0",
+        "jest": "^29.7.0",
         "prettier": "3.2.5"
     }
 }
