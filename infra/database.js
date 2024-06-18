@@ -14,7 +14,7 @@ async function query(queryObject) {
         const result = await client.query(queryObject)
         return result
     } catch (error) {
-        console.error('Error connecting to database: ')
+        console.error('Error connecting to database: ', error)
     } finally {
         await client.end()
     }
